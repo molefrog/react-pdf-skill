@@ -332,6 +332,26 @@ file fonts/Roboto-Bold.ttf
 If `file` shows "HTML document" or "ASCII text", the download failed. Try a different URL or search
 GitHub for the font's official repo with TTF files.
 
+## Emoji
+
+Emoji won't render in PDFs unless you register an emoji source. Install `twemoji-emojis` to get
+local Twemoji PNG assets — no internet needed at render time.
+
+```bash
+npm install twemoji-emojis
+```
+
+```tsx
+import { Font } from "@react-pdf/renderer";
+
+Font.registerEmojiSource({
+  format: "png",
+  url: "node_modules/twemoji-emojis/vendor/72x72/",
+});
+```
+
+Then use emoji directly in Text: `<Text>Hello 🚀🎉</Text>`
+
 ## Other Features
 
 ```tsx
@@ -341,9 +361,6 @@ GitHub for the font's official repo with TTF files.
 
 // Annotation notes
 <Note style={{ color: "yellow" }}>Annotation text</Note>
-
-// Emoji support (requires internet)
-Font.registerEmojiSource({ format: "png", url: "https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/72x72/" });
 
 // Hyphenation
 Font.registerHyphenationCallback((word) => [word]); // disable
