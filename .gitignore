@@ -6,5 +6,7 @@ node_modules/
 fonts/
 bun.lock
 
+test/
+
 # Local dev — symlink for skill discovery
 .claude/
