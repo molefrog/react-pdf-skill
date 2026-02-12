@@ -1,20 +1,20 @@
 {
-  "name": "react-pdf-skill",
+  "name": "skills",
   "owner": {
     "name": "molefrog"
   },
   "metadata": {
-    "description": "React-PDF skill for generating PDF documents with Claude",
+    "description": "Claude Code skills by molefrog",
     "version": "1.0.0"
   },
   "plugins": [
     {
-      "name": "react-pdf",
+      "name": "pdf",
       "description": "Generate PDF documents using React-PDF library (@react-pdf/renderer)",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/react-pdf"
+        "./skills/pdf"
       ]
     }
   ]

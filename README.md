@@ -10,17 +10,11 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill for genera
 
 ## Install
 
-Using the [Vercel skill installer](https://github.com/vercel-labs/skills):
-
-```bash
-npx skills add https://github.com/molefrog/react-pdf-skill --skill react-pdf
-```
-
-Or as a Claude Code plugin:
+As a Claude Code plugin:
 
 ```
-/plugin marketplace add molefrog/react-pdf-skill
-/plugin install react-pdf@react-pdf-skill
+/plugin marketplace add molefrog/skills
+/plugin install pdf@skills
 ```
 
 ## License

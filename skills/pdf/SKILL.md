@@ -1,5 +1,5 @@
 ---
-name: react-pdf
+name: pdf
 description: "Generate PDF documents using React-PDF library (@react-pdf/renderer). Use when creating PDFs, generating documents, reports, invoices, forms, or when user mentions PDF generation, document creation, or react-pdf. CRITICAL: All fonts must be downloaded as local files first - remote URLs do not work. Use google-fonts.txt to find font URLs, then download with curl before registering."
 ---
 
