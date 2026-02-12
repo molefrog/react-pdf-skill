@@ -23,11 +23,11 @@ with [React-PDF](https://react-pdf.org/) (`@react-pdf/renderer`).
 Install:
 
 ```
-npx skills add molefrog/skills --skill pdf
+npx skills add molefrog/skills --skill react-pdf
 
 # or as a claude code plugin
 /plugin marketplace add molefrog/skills
-/plugin install pdf@skills
+/plugin install react-pdf@skills
 ```
 
 ## Why React-PDF over Python PDF libraries?

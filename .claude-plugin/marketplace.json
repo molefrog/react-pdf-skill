@@ -9,12 +9,12 @@
   },
   "plugins": [
     {
-      "name": "pdf",
+      "name": "react-pdf",
       "description": "Generate PDF documents using React-PDF library (@react-pdf/renderer)",
       "source": "./",
       "strict": false,
       "skills": [
-        "./skills/pdf"
+        "./skills/react-pdf"
       ]
     }
   ]

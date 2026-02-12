@@ -1,5 +1,5 @@
 ---
-name: pdf
+name: react-pdf
 description:
   "Generate PDF documents using React-PDF library (@react-pdf/renderer). Use when creating PDFs,
   generating documents, reports, invoices, forms, or when user mentions PDF generation, document
